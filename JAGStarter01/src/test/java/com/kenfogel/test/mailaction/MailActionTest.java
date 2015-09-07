@@ -53,6 +53,14 @@ public class MailActionTest {
 		String messageId = basicSendAndReceive.sendEmail(mailBeanSend, sendConfigBean);
 		log.info("MessageId is " + messageId);
 
+		// Add a five second pause to allow the Gmail server to receive what has
+		// been sent
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			log.error("Threaded sleep failed", e);
+		}
+		
 		ArrayList<MailBean> mailBeansReceive = basicSendAndReceive.receiveEmail(receiveConfigBean);
 
 		boolean test = false;
