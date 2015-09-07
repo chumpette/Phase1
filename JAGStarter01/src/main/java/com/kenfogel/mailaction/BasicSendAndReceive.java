@@ -6,7 +6,7 @@ import java.util.List;
 import javax.mail.Flags;
 
 import com.kenfogel.mailbean.MailBean;
-import com.kenfogel.properties.mailbean.MailConfigBean;
+import com.kenfogel.properties.MailConfigBean;
 
 import jodd.mail.Email;
 import jodd.mail.EmailFilter;

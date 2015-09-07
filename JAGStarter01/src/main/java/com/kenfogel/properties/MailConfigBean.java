@@ -1,4 +1,4 @@
-package com.kenfogel.properties.mailbean;
+package com.kenfogel.properties;
 
 /**
  * Class to contain the information for an email account. This is sufficient for

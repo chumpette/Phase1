@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
 
 import com.kenfogel.mailaction.BasicSendAndReceive;
 import com.kenfogel.mailbean.MailBean;
-import com.kenfogel.properties.mailbean.MailConfigBean;
+import com.kenfogel.properties.MailConfigBean;
 import com.kenfogel.test.MethodLogger;
 
 /**
@@ -34,7 +34,7 @@ public class MailActionTest {
 
 	/**
 	 * Test method for
-	 * {@link com.kenfogel.mailaction.BasicSendAndReceive#sendEmail(com.kenfogel.mailbean.MailBean, com.kenfogel.properties.mailbean.MailConfigBean)}
+	 * {@link com.kenfogel.mailaction.BasicSendAndReceive#sendEmail(com.kenfogel.mailbean.MailBean, com.kenfogel.properties.MailConfigBean)}
 	 * .
 	 *
 	 * In this test a message is created, sent, received and compared.
