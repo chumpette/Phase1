@@ -1,0 +1,1 @@
+This is a basic framework for sending and receiving email. It is for students in 420-517-DW who are working on the JAG project.
